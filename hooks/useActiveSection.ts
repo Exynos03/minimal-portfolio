@@ -12,7 +12,7 @@ const useActiveSection = (sectionIds: string[]): string => {
           }
         });
       },
-      { threshold: 0.7 }
+      { threshold: 0.2 }
     );
 
     sectionIds.forEach((sectionId) => {
@@ -24,7 +24,7 @@ const useActiveSection = (sectionIds: string[]): string => {
 
     return () => observer.disconnect();
   }, [sectionIds]);
-
+  console.log(activeSection)
   return activeSection;
 };
 
