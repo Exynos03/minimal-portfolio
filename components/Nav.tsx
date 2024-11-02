@@ -15,14 +15,14 @@ export default function Nav() {
     "about",
     "experience",
     "projects",
-    "contact",
-  ]);
+    "contact"
+  ])
 
   const navItems: NavItem[] = [
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "#contact" }
   ];
 
   const getNavItemClasses = (href: string) => {
@@ -49,20 +49,19 @@ export default function Nav() {
           <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
             <AvatarImage src="./avatar.png" />
             <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
+              SG
             </AvatarFallback>
           </Avatar>
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, i&#39;m Sumit 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
+         Adaptable Dev with a Team-Building Superpower!
         </h2>
-        <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+        <p className="text-lg lg:text-start text-muted-foreground ">
+        {/* Outside of programming, you&#39;ll find me scoring screamers in FIFA &#40;because my thumbs have dreams too&#41; or chasing the horizon on my bike probably thinking I&#39;m in a Fast & Furious scene, minus the explosions */}
+          Outside of programming, you&#39;ll find me scoring goals in FIFA or chasing the horizon on my bike
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -82,19 +81,19 @@ export default function Nav() {
           })}
         </ul>
       </nav>
-      <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
-        <Button variant="outline" size="icon">
+      <ul className="flex flex-row gap-6 mt-6 lg:mt-0" >
+        <Button variant="outline" size="icon" title="Github">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/Exynos03"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Github className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
-        <Button variant="outline" size="icon">
+        <Button variant="outline" size="icon" title="LinkedIn">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://www.linkedin.com/in/sumit-ghosh01/"
             target="_blank"
             rel="noopener noreferrer"
           >

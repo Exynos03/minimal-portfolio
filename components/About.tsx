@@ -11,45 +11,33 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Throughout my journey from coding to design, I've been guided by a
-          simple belief:{" "}
-          <span className="text-white">
-            technology should feel natural and intuitive.
+          I&#39;m a 23 year old tech enthusiast with a guiding belief :  
+          <span className="dark:text-white text-customBlack">
+            {" "} technology should feel natural and intuitive.
           </span>{" "}
-          At the crossroads of AI, Web3, and Finance, I focus on creating user
-          experiences that make complex ideas accessible.
+          That idea has shaped my work at <span className="dark:text-white text-customBlack">Lean Platform Technologies</span>, 
+          where I&#39;ve built an EdTech platform &#40;<span className="dark:text-white text-customBlack">TPP</span>&#41; from scratch and led the creation of <span className="dark:text-white text-customBlack">KhamBee</span>, 
+          a SaaS platform for creators. I love seeing complex ideas come together seamlessly and have managed projects end to end, 
+          handling performance improvements single handedly &#40;and enjoying every bit of the challenge&#41;.
         </p>
         <p className="text-start  text-muted-foreground lg:px-6">
-          Currently, I'm leading product design at a stealth AI startup that's
-          rethinking how we interact with money. I'm also steering the design
-          team at{" "}
-          <a
+          In college, my roommates and I took a leap and co-founded <span className="dark:text-white text-customBlack">Harbour Stitch</span> an aspirational t-shirt brand that turned a tidy profit. 
+          I also played co-lead for the technical writing team at <span className="dark:text-white text-customBlack">Ingenium</span>, our college magazine, 
+          and worked as a developer for its website. Organizing college events? Been there, 
+          done that stress included, free of charge. 
+          {/* <a
             className="no-wrap text-primary dark:text-white"
             href="https://vela.exchange"
             target="blank"
             rel="noopener noreferrer"
           >
             Vela Exchange
-          </a>
-          , a decentralized platform for perpetual trading. As a co-founder,
-          designer, and developer at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://swoop.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Swoop Exchange
-          </a>
-          , I've helped build a meta-aggregation engine used daily by thousands
-          of users.
+          </a> */}
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
-          Across all the applications I've been involved with, I've had the
-          privilege to contribute in facilitating billions in transaction
-          volume. I believe in making technology feel human—designing
-          applications and experiences that are seamless extensions of
-          ourselves, serving real needs with simplicity and clarity.
+        Outside of code, I&#39;m a <span className="dark:text-white text-customBlack">serial traveler</span> with a soft spot for road trips on my bike, 
+        and that friend who&#39;s always up for a good hangout. 
+        When I&#39;m not immersed in tech, I&#39;m either sketching something or on an adventure somewhere.
         </p>
       </div>
     </section>
