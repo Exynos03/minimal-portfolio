@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://sumitghosh.vercel.app/",
     images: [
       {
-        url: "./avatar.png",
+        url: "./avatar.webp",
       },
     ],
   },
