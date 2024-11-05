@@ -47,7 +47,7 @@ export default function Nav() {
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <div className="w-full flex lg:items-center lg:justify-start">
           <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
-            <AvatarImage src="./avatar.png" />
+            <AvatarImage src="./avatar.webp" />
             <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
               SG
             </AvatarFallback>
