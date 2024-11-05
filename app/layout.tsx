@@ -7,32 +7,28 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  // metadataBase: new URL(""),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Sumit Ghosh - Full Stack Developer",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "Sumit Ghosh is a Full stack developer, expertise in MERN stack and team building",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Sumit Ghosh, Frontend Developer, Full Stack Developer, EdTech, SaaS, JavaScript, RectJs, NextJs, TypeScript, NodeJs, MongoDB, The Product Platform, Khambee, GreetsU, Technology, Innovation, Team building",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Sumit Ghosh",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Sumit Ghosh",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "Sumit Ghosh is a Full stack developer, expertise in MERN stack and team building",
+    url: "",
     images: [
       {
-        url: "./og-large-meik-2.jpg",
+        url: "./avatar.png",
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Alexander Meikopoulos",
   },
 };
 

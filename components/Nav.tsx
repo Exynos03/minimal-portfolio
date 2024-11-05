@@ -43,7 +43,7 @@ export default function Nav() {
   };
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-100 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <div className="w-full flex lg:items-center lg:justify-start">
           <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
