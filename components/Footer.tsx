@@ -5,11 +5,10 @@ export default function Footer() {
     <section>
       <div className="flex flex-col gap-4 lg:px-6 mt-16">
         <p className="text-sm text-center text-foreground">
-          {/* Inspired by{" "}
-          <a className="text-foreground" href="https://brittanychiang.com">
+          Inspired by{" "}
+          <a className="text-foreground" >
             Brittany Chiang&#39;s website
           </a>{" "}
-          (they awesome).  */}
           Crafted with ❤️ By Sumit Ghosh{" "}
           
         </p>
