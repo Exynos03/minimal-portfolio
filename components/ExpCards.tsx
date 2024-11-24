@@ -40,7 +40,7 @@ const jobPositions = [
   },
   {
     timeline: "Apr 2023 — June 2023",
-    currentPosition: "Full Stack Intern",
+    currentPosition: "Associate Software Engineer",
     place: "Lean Platform Technologies",
     previousPositions: [""],
     descriptionPoints:
