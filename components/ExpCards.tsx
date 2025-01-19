@@ -109,7 +109,7 @@ export default function ExpCard() {
       </>
       <div className="lg:px-6 mt-12">
         <a
-          href="/Sumit Ghosh Resume .pdf"
+          href="/Sumit_Ghosh.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
