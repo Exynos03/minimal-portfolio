@@ -1,4 +1,3 @@
-"use client";
 /* eslint-disable */
 
 export default function About() {
@@ -11,33 +10,20 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          I&#39;m a 23 year old tech enthusiast with a guiding belief :  
-          <span className="dark:text-white text-customBlack">
-            {" "} technology should feel natural and intuitive.
-          </span>{" "}
-          That idea has shaped my work at <span className="dark:text-white text-customBlack">Lean Platform Technologies</span>, 
-          where I&#39;ve built an EdTech platform &#40;<span className="dark:text-white text-customBlack">TPP</span>&#41; from scratch and led the creation of <span className="dark:text-white text-customBlack">KhamBee</span>, 
-          a SaaS platform for creators. I love seeing complex ideas come together seamlessly and have managed projects end to end, 
-          handling performance improvements single handedly &#40;and enjoying every bit of the challenge&#41;.
-        </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-          In college, my roommates and I took a leap and co-founded <span className="dark:text-white text-customBlack">Harbour Stitch</span> an aspirational t-shirt brand that turned a tidy profit. 
-          I also played co-lead for the technical writing team at <span className="dark:text-white text-customBlack">Ingenium</span>, our college magazine, 
-          and worked as a developer for its website. Organizing college events? Been there, 
-          done that stress included, free of charge. 
-          {/* <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://vela.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Vela Exchange
-          </a> */}
+          I&#39;m a passionate Frontend Engineer with a focus on creating intuitive and performant web applications. 
+          Currently at <span className="dark:text-white text-customBlack">Kasplo</span>, I&#39;m leading the UI/UX revamp by developing a custom component library 
+          that&#39;s improving design consistency by 40% and accelerating development velocity by 35% across teams.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
-        Outside of code, I&#39;m a <span className="dark:text-white text-customBlack">serial traveler</span> with a soft spot for road trips on my bike, 
-        and that friend who&#39;s always up for a good hangout. 
-        When I&#39;m not immersed in tech, I&#39;m either sketching something or on an adventure somewhere.
+          My journey in tech has been marked by significant achievements: at <span className="dark:text-white text-customBlack">Lean Platform Technologies</span>, 
+          I drove key improvements for The Product Platform (3.5K MAU) and KhamBee, a creator-focused SaaS. 
+          I&#39;ve optimized application performance, cutting API latency by 65% and boosting page load times by 28%. 
+          I&#39;ve also led teams to deliver high-impact features, including Google Calendar integration and A/B testing tools.
+        </p>
+        <p className="text-start text-muted-foreground lg:px-6">
+          Beyond coding, I&#39;m a <span className="dark:text-white text-customBlack">problem solver</span> who thrives on technical challenges. 
+          I&#39;m passionate about creating efficient, scalable solutions and mentoring other developers. 
+          When I&#39;m not immersed in code, you&#39;ll find me exploring new technologies or contributing to open-source projects.
         </p>
       </div>
     </section>
