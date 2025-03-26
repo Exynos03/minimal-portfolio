@@ -1,4 +1,3 @@
-"use client";
 import {
   Card,
   CardContent,
@@ -13,11 +12,33 @@ import { Badge } from "@/components/ui/badge";
 import { MoveRight } from "lucide-react";
 
 const jobPositions = [
+    {
+      "timeline": "January 2025 — Present",
+      "currentPosition": "Software Engineer Frontend",
+      "place": "Kasplo",
+      "previousPositions": [],
+      "descriptionPoints": [
+          "I'm leading the UI/UX revamp by developing a custom component library with Rollup and Storybook, published to npm, improving design consistency by 40% and accelerating development velocity by 35% across teams",
+          "Optimized application performance using advanced React hooks and sophisticated caching mechanisms, cutting API latency by 65% and boosting page load times by 28%",
+          "Fixed a critical bug in email campaign report generation, increasing completion rates from 72% to 99.5%, stabilizing a key feature for 30+ enterprise clients",
+          "Implemented precompiled Tailwind CSS in the component library, reducing CSS bundles by 75% and supporting 85% of JS environments with a 12kB gzipped footprint"
+      ],
+      "skills": [
+          "TypeScript",
+          "NextJs",
+          "Storybook",
+          "Rollup",
+          "Jest",
+          "React Hooks",
+          "Tailwind CSS",
+          "npm package",
+      ]
+  },
   {
-    timeline: "July 2023 — Present",
+    timeline: "Apr 2023 — Jan 2025",
     currentPosition: "Software Development Engineer 1",
     place: "Lean Platform Technologies",
-    previousPositions: ["Previous positions - Associate Software Engineer"],
+    previousPositions: [],
     descriptionPoints: [
       "I drove key improvements for The Product Platform (3.5K MAU) and KhamBee, a creator-focused SaaS",
       "Redesigning account management cut drop-offs by 28% and optimizations like code-splitting reduced load times by 8%",
@@ -38,26 +59,6 @@ const jobPositions = [
       "Team Leadership",
     ],
   },
-  {
-    timeline: "Apr 2023 — June 2023",
-    currentPosition: "Associate Software Engineer",
-    place: "Lean Platform Technologies",
-    previousPositions: [""],
-    descriptionPoints:
-      ["Launched a high-performance Next.js web app with Tailwind CSS and Redux", 
-      "Integrated secure end-to-end payment processing",
-      "Built a Node.js/MongoDB backend for a student community platform",
-      "Created a helpline portal to  connect students with experts using google calendar, payment modules and made a dashboard to handle the same"
-    ],
-    skills: [
-      "Redux",
-      "NodeJs",
-      "MongoDB",
-      "NextJs",
-      "ExpressJs",
-      "VPS"
-    ],
-  }
 ];
 
 export default function ExpCard() {
@@ -72,7 +73,7 @@ export default function ExpCard() {
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-red-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(239,68,68,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-red-200 transition-all duration-500 ease-in-out"
           >
             <CardHeader className="h-full w-full lg:w-1/2 p-0">
               <CardTitle className="text-base text-slate-400 whitespace-nowrap">
@@ -114,7 +115,7 @@ export default function ExpCard() {
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
         >
-          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
+          <span className="border-b border-transparent pb-px transition-colors duration-300 ease-in-out hover:border-red-500 motion-reduce:transition-none">
             View Full Resume
           </span>
           <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />

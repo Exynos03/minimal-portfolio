@@ -79,25 +79,25 @@ export default function Projects() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:cursor-pointer transition-all ease-in-out delay-150"
+            className="hover:cursor-pointer transition-all duration-300 ease-in-out"
             onMouseEnter={() => setIsHover(index)}
             onMouseLeave={() => setIsHover(-1)}
           >
-            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200 ">
-              <CardHeader className={`h-full w-full ${isHover === index ? "lg:w-[55%]" : "lg:w-1/2"} mb-4 p-0 transition-all ease-in-out delay-150`}>
+            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-red-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(239,68,68,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-red-200 transition-all duration-500 ease-in-out">
+              <CardHeader className={`h-full w-full ${isHover === index ? "lg:w-[55%]" : "lg:w-1/2"} mb-4 p-0 transition-all duration-500 ease-in-out`}>
                 <Image
                   src={ isHover === index ?  project.gifPath : project.imagePath }
                   alt={`Screenshot of ${project.title}`}
                   width={1920}
                   height={1080}
                   priority
-                  className="bg-[#141414] mt-2 border border-muted-foreground rounded-[0.5rem] "
+                  className="bg-[#141414] mt-2 border border-muted-foreground rounded-[0.5rem] transition-all duration-500 ease-in-out"
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
-                <p className="text-primary font-bold">
+                <p className="text-red-500 font-bold transition-colors duration-300 ease-in-out">
                   {project.title}{" "}
-                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
+                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
                 </p>
                 <CardDescription className="py-3 text-muted-foreground">
                   {project.description}

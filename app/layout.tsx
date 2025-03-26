@@ -12,18 +12,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sumitghosh.vercel.app/",
   },
-  title: "Sumit Ghosh - Full Stack Developer",
+  title: "Sumit Ghosh | Frontend Developer",
   description:
-    "Sumit Ghosh is a Full stack developer, expertise in MERN stack and team building",
+    "Sumit Ghosh is a Frontend developer, expertise in ReactJs, NextJs, TypeScript, TailwindCss, and team building",
   keywords:
-    "Sumit Ghosh, Frontend Developer, Full Stack Developer, EdTech, SaaS, JavaScript, RectJs, NextJs, TypeScript, NodeJs, MongoDB, The Product Platform, Khambee, GreetsU, Technology, Innovation, Team building",
+      "Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, Kasplo, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence",
   openGraph: {
     locale: "en_US",
     siteName: "Sumit Ghosh",
     type: "website",
     title: "Sumit Ghosh",
     description:
-      "Sumit Ghosh is a Full stack developer, expertise in MERN stack and team building",
+      "Sumit Ghosh is a Frontend developer, expertise in ReactJs, NextJs, TypeScript, TailwindCss, and team building",
     url: "https://sumitghosh.vercel.app/",
     images: [
       {
@@ -41,14 +41,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <title>Sumit Ghosh - Full Stack Developer</title>
+        <title>Sumit Ghosh | Frontned Developer</title>
         <meta
           name="description"
-          content="Sumit Ghosh is a Full stack developer, expertise in MERN stack and team building"
+          content="Sumit Ghosh is a Frontend developer, expertise in ReactJs, NextJs, TypeScript, TailwindCss, and team building"
         />
         <meta
           name="keywords"
-          content="Sumit Ghosh, Frontend Developer, Full Stack Developer, EdTech, SaaS, JavaScript, RectJs, NextJs, TypeScript, NodeJs, MongoDB, The Product Platform, Khambee, GreetsU, Technology, Innovation, Team building"
+          content="Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, Kasplo, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence"
         />
       </head>
       <body className={inter.className}>
