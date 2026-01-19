@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Sumit Ghosh is a Frontend developer, expertise in ReactJs, NextJs, TypeScript, TailwindCss, and team building",
   keywords:
-      "Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, Kasplo, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence",
+    "Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, GammaStack, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence",
   openGraph: {
     locale: "en_US",
     siteName: "Sumit Ghosh",
@@ -48,7 +48,7 @@ export default function RootLayout({
         />
         <meta
           name="keywords"
-          content="Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, Kasplo, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence"
+          content="Sumit Ghosh, Frontend Developer, ReactJs, NextJs, TypeScript, TailwindCss, Technology, Innovation, Team building, GammaStack, Lean Platform Technologies, The Product Platform, KhamBee, Emmail intelligence"
         />
       </head>
       <body className={inter.className}>
