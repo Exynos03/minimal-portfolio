@@ -39,7 +39,7 @@ export default function HoneycombBackground() {
             vy: number;
             angle: number;
             speed: number;
-            state: 'wander' | 'chase';
+            mode: 'wander' | 'chase';
 
             constructor(w: number, h: number) {
                 this.x = Math.random() * w;
@@ -48,7 +48,7 @@ export default function HoneycombBackground() {
                 this.vy = (Math.random() - 0.5) * 2;
                 this.angle = 0;
                 this.speed = 2 + Math.random() * 2;
-                this.state = 'wander';
+                this.mode = 'wander';
             }
 
             update(mx: number, my: number, w: number, h: number) {
@@ -59,12 +59,12 @@ export default function HoneycombBackground() {
                 // Check if mouse is active (simple check if it's not 0,0 or very far)
                 // If dist < 300, start chasing, BUT NOT ON MOBILE
                 if (!isMobile && dist < 300 && dist > 10) {
-                    this.state = 'chase';
+                    this.mode = 'chase';
                 } else {
-                    this.state = 'wander';
+                    this.mode = 'wander';
                 }
 
-                if (this.state === 'chase') {
+                if (this.mode === 'chase') {
                     const angleToMouse = Math.atan2(dy, dx);
                     // Swarm behavior: add noise
                     const noise = (Math.random() - 0.5) * 0.5;
