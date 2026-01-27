@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
 import ClientAura from "@/components/ClientAura";
 import CustomCursor from "@/components/CustomCursor";
-import ThreeBackground from "@/components/ThreeBackground";
+import HoneycombBackground from "@/components/HoneycombBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export default function Home() {
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-23 lg:py-0">
       <CustomCursor isDesktop={true} />
       <ClientAura />
-      <ThreeBackground />
+      <HoneycombBackground />
       <div className="lg:flex lg:justify-between lg:gap-5">
         <Nav />
         <main className="flex flex-col pt-6 lg:pt-24 lg:w-full lg:py-24 gap-8">

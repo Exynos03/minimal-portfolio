@@ -27,10 +27,10 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
         >
-          <Button variant={"default"} className="w-full h-full">
+          <Button variant={"default"} className="w-full h-full text-primary-foreground">
             <div className="flex flex-row items-center">
-              <Mail className="dark:text-white text-muted h-6 w-6" />
-              <p className="ml-3 text-2xl dark:text-white text-muted">
+              <Mail className="h-6 w-6" />
+              <p className="ml-3 text-2xl">
                 Say hello
               </p>
             </div>

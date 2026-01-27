@@ -84,7 +84,7 @@ export default function ExpCard() {
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="bg-transparent lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-red-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(239,68,68,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-red-200 transition-all duration-500 ease-in-out"
+            className="bg-transparent lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-honey-600 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(251,191,36,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-honey-500 transition-all duration-500 ease-in-out"
           >
             <CardHeader className="h-full w-full lg:w-1/2 p-0">
               <CardTitle className="text-base text-slate-400 whitespace-nowrap">
@@ -126,7 +126,7 @@ export default function ExpCard() {
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
         >
-          <span className="border-b border-transparent pb-px transition-colors duration-300 ease-in-out hover:border-red-500 motion-reduce:transition-none">
+          <span className="border-b border-transparent pb-px transition-colors duration-300 ease-in-out hover:border-honey-500 motion-reduce:transition-none">
             View Full Resume
           </span>
           <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />

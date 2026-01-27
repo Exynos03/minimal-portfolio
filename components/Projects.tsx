@@ -88,7 +88,7 @@ export default function Projects() {
         {jobProjects.map((project, index) => {
           const isLinkAvailable = project.link && project.link !== "#";
           const CardContentWrapper = (
-            <Card className="bg-transparent group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-red-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(239,68,68,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-red-200 transition-all duration-500 ease-in-out">
+            <Card className="bg-transparent group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-honey-600 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(251,191,36,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-honey-500 transition-all duration-500 ease-in-out">
               <CardHeader className={`h-full w-full ${isHover === index ? "lg:w-[55%]" : "lg:w-1/2"} mb-4 p-0 transition-all duration-500 ease-in-out`}>
                 <Image
                   src={isHover === index ? project.gifPath : project.imagePath}
@@ -100,7 +100,7 @@ export default function Projects() {
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
-                <p className="text-red-500 font-bold transition-colors duration-300 ease-in-out">
+                <p className="text-honey-500 font-bold transition-colors duration-300 ease-in-out">
                   {project.title}{" "}
                   {isLinkAvailable && (
                     <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
